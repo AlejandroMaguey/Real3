@@ -1,0 +1,35 @@
+@import 'compass';
+@import "compass/reset";
+@import 'compass/css3';
+//font weights
+
+$light:150;
+$regular:300;
+$bold:600;
+$extra-bold:800;
+
+//colors
+
+$black:#333;
+$white:#fff;
+
+//font base
+
+$base-font-size: 16px;
+$base-line-height: 1.5;
+$base-font-weight:$regular;
+$base-font-family: sans-serif;
+$base-font-color: $black;
+
+// font-urls
+
+$header-font-url:'http://fonts.googleapis.com/css?family=Enriqueta:700';
+
+//heading
+
+$header-font-size: em(32px);
+$header-font-weight:$bold;
+$header-font-family: 'Enriqueta', serif;
+
+
+

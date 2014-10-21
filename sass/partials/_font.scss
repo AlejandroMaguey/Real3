@@ -1,0 +1,16 @@
+@import url($header-font-url);
+body{
+	font-size:$base-font-size;
+	font-family:$base-font-family;
+	font-weight:$regular;
+	line-height:$base-line-height;
+}
+h1{
+	font-size:$header-font-size;
+	font-weight:$bold;
+	font-family:$header-font-family;
+}
+a{
+	color:$white;
+	text-decoration:none;
+}

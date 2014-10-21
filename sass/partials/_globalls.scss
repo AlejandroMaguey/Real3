@@ -1,0 +1,8 @@
+@import 'font';
+*{
+	@include box-sizing(border-box);
+}
+.row {
+    width: 100%;
+    padding: 0 10%;
+}

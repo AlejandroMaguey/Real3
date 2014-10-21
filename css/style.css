@@ -1,0 +1,242 @@
+@import url("http://fonts.googleapis.com/css?family=Enriqueta:700");
+/* line 5, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../sass/partials/_font.scss */
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/* line 8, ../sass/partials/_font.scss */
+h1 {
+  font-size: 2em;
+  font-weight: 600;
+  font-family: "Enriqueta", serif;
+}
+
+/* line 13, ../sass/partials/_font.scss */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 2, ../sass/partials/_globalls.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 5, ../sass/partials/_globalls.scss */
+.row {
+  width: 100%;
+  padding: 0 10%;
+}
+
+/* line 1, ../sass/partials/_header.scss */
+.content-nav {
+  padding: 1.5em 1.5%;
+  width: 100%;
+}
+
+/* line 5, ../sass/partials/_header.scss */
+.main-header {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  padding: 1.5em 0;
+  background: transparent;
+  overflow: hidden;
+  opacity: 1;
+}
+
+/* line 15, ../sass/partials/_header.scss */
+.logo {
+  font-size: 2em;
+  text-transform: uppercase;
+  float: left;
+  display: block;
+}
+@media only screen and (max-width: 766px) {
+  /* line 21, ../sass/partials/_header.scss */
+  .logo {
+    float: none;
+  }
+}
+
+/* line 26, ../sass/partials/_header.scss */
+nav {
+  float: right;
+  width: 60%;
+}
+@media only screen and (max-width: 766px) {
+  /* line 30, ../sass/partials/_header.scss */
+  nav {
+    width: 100%;
+  }
+}
+/* line 34, ../sass/partials/_header.scss */
+nav ul {
+  float: right;
+  text-align: right;
+  overflow: hidden;
+}
+/* line 39, ../sass/partials/_header.scss */
+nav ul li {
+  position: relative;
+  display: inline-block;
+}
+
+/* line 2, ../sass/partials/home/_why.scss */
+.why {
+  height: 100vh;
+  width: 100%;
+  background: url(../img/workspace.jpg) no-repeat center center fixed;
+  background-size: 100% 100%;
+  text-align: center;
+  color: #fff;
+}
+@media only screen and (max-width: 766px) {
+  /* line 10, ../sass/partials/home/_why.scss */
+  .why {
+    -moz-background-size: "cover";
+    -o-background-size: "cover";
+    -webkit-background-size: "cover";
+    background-size: "cover";
+  }
+}
+/* line 14, ../sass/partials/home/_why.scss */
+.why h1 {
+  padding-top: 45vh;
+}
+/* line 16, ../sass/partials/home/_why.scss */
+.why h1 span {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 2.5vh 0;
+}
+
+/* line 24, ../sass/partials/home/_why.scss */
+.mouse {
+  display: block;
+  margin: 0 auto;
+  width: 26px;
+  height: 46px;
+  border-radius: 13px;
+  border: 2px solid #fff;
+  position: absolute;
+  bottom: 40px;
+  position: absolute;
+  left: 51%;
+  margin-left: -26px;
+}
+/* line 36, ../sass/partials/home/_why.scss */
+.mouse span {
+  display: block;
+  margin: 6px auto;
+  width: 2px;
+  height: 2px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid transparent;
+  -moz-animation: scroll, 1s, infinite, both;
+  -webkit-animation: scroll, 1s, infinite, both;
+  animation: scroll, 1s, infinite, both;
+}
+
+@-moz-keyframes scroll {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+@-webkit-keyframes scroll {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
